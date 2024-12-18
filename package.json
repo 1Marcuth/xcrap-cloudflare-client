@@ -1,0 +1,27 @@
+{
+  "name": "xcrap-cloudflare-client",
+  "version": "0.0.1",
+  "types": "./dist/index.d.ts",
+  "description": "A client for the `xcrap` framework based on `xcrap-puppeteer-extra-client`. Supports any and all available plugins.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "xcrap",
+    "xcrap client",
+    "xcrap cloudflare",
+    "cloudflare"
+  ],
+  "author": "Marcuth",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "xcrap": "^1.12.0",
+    "xcrap-puppeteer-extra-client": "^0.0.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
