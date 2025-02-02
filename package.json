@@ -1,6 +1,6 @@
 {
   "name": "xcrap-cloudflare-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "types": "./dist/index.d.ts",
   "description": "A client for the `xcrap` framework based on `xcrap-puppeteer-extra-client`. Supports any and all available plugins.",
   "main": "./dist/index.js",

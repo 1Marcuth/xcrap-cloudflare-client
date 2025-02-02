@@ -13,6 +13,4 @@ class CloudflareClient extends PuppeteerExtraClient {
     }
 }
 
-const cloudflareClient = new CloudflareClient()
-
 export default CloudflareClient
